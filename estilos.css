@@ -1,0 +1,241 @@
+/* Selectora {
+	propiedad: valor;
+} */
+*{
+	color: black;
+	font-family: 'Poppins' sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+.cartel--bg{
+	background-color: grey;
+}
+.cartel--tamanio{
+	width: 200px;
+	height: 100px;
+}
+
+.tarjeta__titulo{
+	color: grey;
+	font-size: 40px;
+	padding: 0 40px;
+	
+}
+
+.tarjeta_texto{
+	color: grey;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.tarjeta{
+	background-color: black;
+	width: 1450px;
+	margin-top: 40px;
+}
+
+.borde{
+	border: solid 1px gray;
+	width: 95,1%;
+}
+
+.card{
+	background-color: black;
+	width: 100%;
+}
+
+nav ul li{
+	display: inline-block;
+	color: grey;
+}
+
+}
+
+header{
+	background-color:black;
+	position: sticky;
+	top: 0;
+}
+
+/*FLEXBOX*/
+
+.barranav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+ }
+
+.contenido{
+	display: flex;
+}
+
+footer{
+	color: white;
+	display: flex;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+	font-size: 25px;
+}
+
+li{
+	list-style-type: none;
+	padding: 20px;
+}
+
+.pad20{
+	padding: 20px;
+}
+
+h1{
+    color:gray;
+    font-size: 35px;
+    vertical-align: baseline;
+    text-align:center;
+    top: -120px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+main{
+	display: contents;
+	flex-direction: row;
+	justify-content:all;
+	font-size: 40px;
+}
+
+ul{
+	text-align: center;
+	padding-left: 10px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+/*GRID*/
+
+.grid{
+	display: grid;
+	grid-template-areas:"milo link ."
+	                    "img1  img2"
+	                   "pie logo logo";
+	grid-temple-columns:  100% 100% 10% ;
+	grid-template-rows: 10% 10% 80%;
+	gap: 0px 0px;
+}
+
+.logo{
+	grid-area: patita;
+	width:5%;
+}
+
+nav{
+	grid-area:link;
+	display: flex;
+	position: relative;
+}
+
+.azul{
+	grid-area: img1;
+	width: 100%;
+}
+
+p{
+	grid-area:menu;
+	color:gray;
+    font-size: 15px;
+    top: -100px;
+    left: 0px;
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+.pen{
+	text-align: center;
+	font-size: 35px;
+}
+
+.milo{
+	color: grey;
+	font-size: 30px;
+	left: 0px;
+	top: 20px;
+	position: relative;
+}
+
+body{
+	background-image: url(img/logo22.png);
+	font-family: 'Poppins' sans-serif;
+	height: 665px;
+	background-size: 1000rem;
+}
+
+h3{
+	color:gray;
+    font-size: 25px;
+    text-align:center;
+    top: -60px;
+    left: 0px;
+    position: relative;
+    background-color: black;
+}
+
+.containerImg{
+	width: 70%;
+	height:50%;
+	top:0px;
+	left:220px;
+	position: relative;
+}
+
+.img3{
+    width: 40%;
+	height: 50%;
+	top: 0px;
+	left: 50px;
+	position: relative;
+}
+
+.img4{
+	width: 40%;
+	height: 50%;
+	top: 0px;
+	left: 50px;
+	position: relative;
+}
+
+/*M.H Automotores*/
+
+h4{
+	color: grey;
+	font-size: 55px;
+	top: -320px;
+	position: relative;
+}
+footer{
+	top:0px;
+	left:0px;
+	position: relative;
+	font-size: 20px;
+	scroll-behavior: none;
+}
+
+.maps{
+	height: 500px;
+	width: 1530px;
+
+}
+
+.cc{
+	position: relative;
+	left: 20px;
+}
+
+.contenido{
+	color: grey;
+}
+/*AUTOS*/
