@@ -168,7 +168,7 @@ p{
 }
 
 body{
-	background-image: linear-gradient(black, grey);
+	background-image: radial-gradient(white, grey);
 }
 
 h3{
