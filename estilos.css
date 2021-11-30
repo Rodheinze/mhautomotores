@@ -2,7 +2,6 @@
 	propiedad: valor;
 } */
 *{
-	color: black;
 	font-family: 'Poppins' sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -198,7 +197,7 @@ h3{
 }
 
 .img4{
-	width: 40%;
+	width: 100%;
 	height: 50%;
 	top: 0px;
 	left: 50px;
