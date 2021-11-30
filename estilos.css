@@ -168,10 +168,7 @@ p{
 }
 
 body{
-	background-image: url(img/logo22.png);
-	font-family: 'Poppins' sans-serif;
-	height: 665px;
-	background-size: 1000rem;
+	background-image: linear-gradient(black, grey);
 }
 
 h3{
@@ -238,4 +235,9 @@ footer{
 .contenido{
 	color: grey;
 }
-/*AUTOS*/
+
+div{
+  width: 100px;
+  height: 100px;
+  transition: all 2s;
+}
