@@ -276,3 +276,11 @@ nav ul li{
 	display: inline-block;
 	color: grey;
 }
+
+body{
+	background-color: gray;
+}
+
+.navm{
+	background-color: gray;
+}
