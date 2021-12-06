@@ -1,262 +1,58 @@
-/* Selectora {
-	propiedad: valor;
-} *
+
 *{
 	font-family: 'Poppins' sans-serif;
 	margin: 0px;
 	padding: 0px;
 }
-.cartel--bg{
-	background-color: grey;
+/*Animaciones*/
+.gradientes{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: black; solid 10px;
+	background-image: linear-gradient(grey, black);
 }
-.cartel--tamanio{
+
+.rotar{
 	width: 200px;
-	height: 100px;
+	height: 200px;
+	margin-bottom: 50px;
+	transform: rotate(-45deg);
 }
 
-.tarjeta__titulo{
-	color: grey;
-	font-size: 40px;
-	padding: 0 40px;
-	
-}
-
-.tarjeta_texto{
-	color: grey;
-	font-size: 30px;
-	padding: 20px;
-}
-
-.tarjeta{
-	background-color: black;
-	width: 1450px;
-	margin-top: 40px;
-}
-
-.borde{
-	border: solid 1px gray;
-	width: 95,1%;
-}
-
-.card{
-	background-color: black;
-	width: 100%;
-}
-
-nav ul li{
-	display: inline-block;
-	color: grey;
-}
-
-}
-
-header{
-	background-color:black;
-	position: sticky;
-	top: 0;
-}
-
-/*FLEXBOX*
-
-.barranav{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
- }
-
-.contenido{
-	color: grey;
-	display: flex;
-}
-
-footer{
+.animacion1{
 	color: white;
-	display: flex;
-	width: 100%;
-}
-
-a{
-	text-decoration: none;
-	color: gray;
-	font-size: 25px;
-}
-
-li{
-	list-style-type: none;
-	padding: 20px;
-}
-
-.pad20{
-	padding: 20px;
-}
-
-h1{
-    color:gray;
-    font-size: 35px;
-    vertical-align: baseline;
-    text-align:center;
-    top: -120px;
-    left: 0;
-    position: relative;
-    width: 100%;
-    background-color: black;
-}
-
-main{
-	display: contents;
-	flex-direction: row;
-	justify-content:all;
-	font-size: 40px;
-}
-
-ul{
-	text-align: center;
-	padding-left: 10px;
-	margin-top: 10px;
-	list-style: none;
-}
-
-/*GRID*
-
-.grid{
-	display: grid;
-	grid-template-areas:"milo link ."
-	                    "img1  img2"
-	                   "pie logo logo";
-	grid-temple-columns:  100% 100% 10% ;
-	grid-template-rows: 10% 10% 80%;
-	gap: 0px 0px;
-}
-
-.logo{
-	grid-area: patita;
-	width:5%;
-}
-
-nav{
-	grid-area:link;
-	display: flex;
-	position: relative;
-}
-
-.azul{
-	grid-area: img1;
-	width: 100%;
-}
-
-p{
-	grid-area:menu;
-	color:gray;
-    font-size: 15px;
-    top: -100px;
-    left: 0px;
-    position: relative;
-    width: 100%;
-    background-color: black;
-}
-.pen{
-	text-align: center;
 	font-size: 35px;
+	animation-name: efecto;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-delay: 3s;
 }
 
-.milo{
-	color: grey;
-	font-size: 30px;
-	left: 0px;
-	top: 20px;
-	position: relative;
+@keyframes efecto {
+	0%{
+		color: white;
+	}
+	25%{
+		color: grey;
+	}
+	50%{
+		color: black;
+	}
+	75%{
+		color: white;
+	}
+	100%{
+		color: grey;
+	}
 }
 
-body{
-	background-image: radial-gradient(white, grey);
-}
-
-h3{
-	color:gray;
-    font-size: 25px;
-    text-align:center;
-    top: -60px;
-    left: 0px;
-    position: relative;
-    background-color: black;
-}
-
-.containerImg{
-	width: 70%;
-	height:50%;
-	top:0px;
-	left:220px;
-	position: relative;
-}
-
-.img3{
-    width: 40%;
-	height: 50%;
-	top: 0px;
-	left: 50px;
-	position: relative;
-}
-
-.img4{
-	width: 100%;
-	height: 50%;
-	top: 0px;
-	left: 50px;
-	position: relative;
-}
-
-/*M.H Automotores*
-
-h4{
-	color: grey;
-	font-size: 55px;
-	top: -320px;
-	position: relative;
-}
-footer{
-	top:0px;
-	left:0px;
-	position: relative;
-	font-size: 20px;
-	scroll-behavior: none;
-}
-
-.maps{
-	height: 500px;
-	width: 1530px;
-
-}
-
-.cc{
-	position: relative;
-	left: 20px;
-}
-
-div{
-  width: 100px;
-  height: 100px;
-  transition: all 2s;
-}
-
-@keyframes{
-	0%{width: 100%;}
-	20%{transform: rotate(450deg);}
-	40%{width: 100%;}
-	60%{transform: skewX(20deg);}
-	80%{transform: scale(2.5,1.5);}
-	100%{width: 100%;}
-}
-
-.container{
-
-}
 /*bootstraps*/
 .border{
 	border: solid 1px gray;
 }
 
 .menu{
-	background-color: gray;
+	background-color:white;
 	text-align: center;
 	font-size: 30px;
 	
@@ -274,13 +70,44 @@ ul{
 }
 nav ul li{
 	display: inline-block;
-	color: grey;
+	color: white;
 }
 
 body{
 	background-color: gray;
 }
 
-.navm{
-	background-color: gray;
+.footer{
+	color: white;
 }
+
+/*COLOR DE LETRAS*/
+
+.p{
+	color: white;
+}
+
+/*COLOR DE NAV*/
+
+.navcolor{
+	background-image: linear-gradient(black, gray);
+}
+
+/*CONTENIDO*/
+
+.blue{
+	position: relative;
+	left: 0px;
+	top: -55px;
+}
+
+.maps{
+	width: 1480px;
+	height: 550px;
+}
+
+.foot{
+	position: relative;
+	top: 50px;
+}
+
