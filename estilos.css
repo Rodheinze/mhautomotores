@@ -111,3 +111,37 @@ body{
 	top: 50px;
 }
 
+/*IMAGENES*/
+
+.img1{
+	width: 550px;
+	height: 350px;
+	position: relative;
+	left: 0%;
+}
+
+.img2{
+	width: 550px;
+	height: 350px;
+	position: relative;
+    left: -90px;
+	}
+
+.circular-square {
+border-radius: 50%;
+}
+
+.image{
+	width: 300px;
+	height: 250px;
+
+}
+
+/*aaaa*/
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+	font-family: 'Poppins' sans-serif ;
+}
