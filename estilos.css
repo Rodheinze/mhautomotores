@@ -80,6 +80,8 @@ body{
 
 .footer{
 	color: white;
+	position: relative;
+	top: 100px;
 }
 
 /*COLOR DE LETRAS*/
@@ -167,6 +169,47 @@ body{
     left: 100px;
 }
 
+
+
+.img5{
+	width: 350px;
+	height: 250px;
+	padding: 25px;
+	margin: 0px;
+    position: relative;
+    left: -100px; 
+}
+
+.img6{
+	width: 350px;
+	height: 250px;
+	padding: 25px;
+	margin: 0px;
+	position: relative;
+	left: -35px;
+}
+
+.img7{
+	width:350px;
+	height:250px;
+	padding: 25px;
+	margin: 0px;
+	position: relative;
+	left: 35px;
+}
+
+.img8{
+	width: 350px;
+	height: 250px;
+	padding: 25px;
+	margin: 0px;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
 .circular-square {
 border-radius: 50%;
 }
@@ -240,6 +283,37 @@ a{
 	text-align:center;
 	font-size: 25px;
 }
+
+
+.texto7{
+	position: relative;
+	left: -60px;
+	text-align: left;
+	font-size: 16px;
+}
+
+.texto8{
+	position: relative;
+	left: -10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.texto9{
+	position: relative;
+	left: 60px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.texto10{
+	position: relative;
+	left: 125px;
+	text-align: center;
+	font-size: 16px;
+}
+
+
 
 .textoautos{
 	position: relative;
