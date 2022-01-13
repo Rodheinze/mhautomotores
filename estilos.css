@@ -62,6 +62,10 @@
 	padding: 10px;
 }
 
+.pad30{
+	padding: 40px;
+}
+
 ul{
 	text-align: center;
 	padding-left: 10px;
@@ -122,6 +126,10 @@ body{
 .titulo{
 	font-size: 60px;
 	text-align: center;
+}
+
+.espacio{
+	padding: ;
 }
 
 /*IMAGENES*/
@@ -218,6 +226,21 @@ border-radius: 50%;
 	width: 300px;
 	height: 250px;
 
+}
+
+.imgauto1{
+	position: relative;
+	left: -200px;
+}
+
+.imgauto2{
+	position: relative;
+	left: 275px;
+}
+
+.imgauto3{
+	position: relative;
+	left: 30px;
 }
 
 /*aaaa*/
@@ -318,6 +341,7 @@ a{
 .textoautos{
 	position: relative;
 	margin: 15px;
+	left: -180px;
 }
 
 .textocamionetas{
@@ -332,7 +356,7 @@ a{
 
 .precios{
 	position: relative;
-	left: px;
+	left: ;
 }
 /*VIDEOS*/
 
